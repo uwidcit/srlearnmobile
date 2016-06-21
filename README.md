@@ -4,10 +4,17 @@ Attempting to use the Moodle Mobile app as the basis of a customization for the 
 
 This work is based on the official Moodle documentation for customizing the Mobile application:
  * [Creating a custom Moodle Mobile 2 app](https://docs.google.com/presentation/d/1HX5h7zwtay4amaY3qyLuCLfI7kQCiD9IoWuDH-lSa_0/edit#slide=id.p)
+ * [Environment Configuration](https://docs.moodle.org/dev/Setting_up_your_development_environment_for_Moodle_Mobile_2)
+Prerequisits
 
-
- Steps:
-  * ionic state restore
+Steps:
+ * sudo npm install -g gulp
+ * npm install 
+ * gem install sass (ruby)
+ * bower install
+ * ionic state restore
+ * gulp
+ * ionic serve --browser chromium
 
 Moodle Mobile 2.x
 =================

@@ -4,6 +4,8 @@
  * Use it to customise the look and feel of the app.
  */
 
+
+
 // Colors.
 $positive: #387ef5;
 
@@ -29,3 +31,24 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   box-shadow: none;
   color: #fff;
 }
+
+$primary : #009C50;
+
+ // Custom Colours
+ .bar-side-menu {
+   background-color: $primary;
+ }
+ 
+ .bar-content {
+   background-color: $primary;
+ }
+ 
+ .button.button-positive {
+   border-color: $primary;
+   background-color: $primary;
+   color: #fff;
+ } 
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
