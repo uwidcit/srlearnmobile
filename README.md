@@ -2,6 +2,10 @@ SRLearn Mobile App
 =================
 Attempting to use the Moodle Mobile app as the basis of a customization for the Official App of the E-Learning platform of the Caribbean Small Ruminant  Project
 
+Customizations
+The following section highlights the customizations made to the app thus far.
+* Customized the login credentials to include a button specifically for directing the user to the registration page. [Need improvement]
+
 This work is based on the official Moodle documentation for customizing the Mobile application:
  * [Creating a custom Moodle Mobile 2 app](https://docs.google.com/presentation/d/1HX5h7zwtay4amaY3qyLuCLfI7kQCiD9IoWuDH-lSa_0/edit#slide=id.p)
  * [Environment Configuration](https://docs.moodle.org/dev/Setting_up_your_development_environment_for_Moodle_Mobile_2)
