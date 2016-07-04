@@ -135,4 +135,15 @@ angular.module('mm.core.login')
         });
     };
 
+    $scope.launchLogin = function(){
+        var siteurl = $scope.siteurl,
+            login_url = siteurl + "/login/index.php",
+            option = '_system';
+
+        $mmUtil
+            .showConfirm("Registration requires the Web Site", 'Launch Registation')
+            .then(function(){
+                window.open(login_url, option,'location=yes' );
+            });
+    };
 });
