@@ -4,7 +4,8 @@ Attempting to use the Moodle Mobile app as the basis of a customization for the 
 
 Customizations
 The following section highlights the customizations made to the app thus far.
-* Customized the login credentials to include a button specifically for directing the user to the registration page. [Need improvement]
+* Customized the login credentials to include a button specifically for directing the user to the registration page.
+* Customized the courses list controller and template in /www/core/components/courses for the button to direct to new course and branding
 
 This work is based on the official Moodle documentation for customizing the Mobile application:
  * [Creating a custom Moodle Mobile 2 app](https://docs.google.com/presentation/d/1HX5h7zwtay4amaY3qyLuCLfI7kQCiD9IoWuDH-lSa_0/edit#slide=id.p)

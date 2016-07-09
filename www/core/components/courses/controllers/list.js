@@ -62,4 +62,17 @@ angular.module('mm.core.courses')
             fetchCourses();
         }
     });
+
+    $scope.newCourse = function() {
+        var siteurl = "http://csrp.cardi.org";
+        var login_url = siteurl + "/course/index.php",
+            option = '_system';
+
+        $mmUtil
+            .showConfirm("Adding a new course will redirect you to the main site. You will be required to login.", 'Add New Course')
+            .then(function(){
+                window.open(login_url, option,'location=yes' );
+            });
+                
+    };
 });

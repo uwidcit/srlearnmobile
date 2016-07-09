@@ -4,8 +4,14 @@
     </ion-nav-buttons>
     <ion-content padding="true" mm-state-class>
         <!-- ion-refresher needs to be direct child of ion-content to work with native scrolling -->
+        
         <ion-refresher pulling-text="{{ 'mm.core.pulltorefresh' | translate }}" ng-if="coursesLoaded" on-refresh="refreshCourses()">
         </ion-refresher>
+        <div style="text-align: center;">
+            <img width="100px" height="100px" src="img/icon.png">
+            <h4>Caribbean Small Ruminants Project</h4>
+            <h6>An E-Learning Platform for Farmers in the Sheep and Goat Industry</h6>
+        </div>
         <mm-loading hide-until="coursesLoaded">
             <div class="list" ng-if="courses && courses.length > 5">
                 <label class="item item-input">
@@ -37,6 +43,20 @@
                 <p>{{ 'mm.courses.nocourses' | translate }}</p>
                 <p ng-if="searchEnabled">{{ 'mm.courses.searchcoursesadvice' | translate }}</p>
             </div>
+            <div class="card">
+                <div class="item item-divider">
+                    Add New Course
+                </div>
+                <div class="item item-text-wrap">
+                    The Mobile App only shows courses that were previously accessed (and enrolled) on the Main Website. Use the website to add a new course and information will be available in the Mobile App.
+                </div>
+                <div class="item">
+                    <button ng-click="newCourse()" class="button button-block button-positive icon-left ion-university">
+                      Add New Course
+                    </button>
+                </div>
+            </div>
         </mm-loading>
+        
     </ion-content>
 </ion-view>
