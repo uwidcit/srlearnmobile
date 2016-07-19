@@ -1,8 +1,8 @@
 {
     "appsettings": "App settings",
     "help": "Help",
-    "changesite": "Change site",
+    "changesite": "Logout",
     "mycourses": "My courses",
     "togglemenu": "Toggle menu",
-    "website": "Website"
+    "website": "Main Website"
 }
