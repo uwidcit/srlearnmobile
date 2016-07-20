@@ -1,1 +1,10 @@
+<ion-view view-title="{{ 'mm.sidemenu.help' | translate }}">
+	<ion-content mm-state-class>
+		<ul class="list">
+			<li ng-repeat='hItem in help_list track by $index'>
+				<a ng-click="loadTopic(hItem.topic, $index)" mm-link class="item item-text-wrap">{{ hItem.name }}</a>
+			</li>
+		</ul>
+	</ion-content>
+</ion-view>
 <h2>Help</h2>
