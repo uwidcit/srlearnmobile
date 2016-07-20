@@ -1,0 +1,78 @@
+<style type="text/css">
+	.srlAboutImg { text-align: center; }
+	.srlAboutImg img{ width: 100px; }
+</style>
+<ion-view view-title="{{ 'mm.settings.about' | translate }}">
+	<ion-content mm-state-class>
+		<div class="list">
+			<!-- Project About -->
+			<div class="item">
+				<div class="list card">
+					<div class="item">
+						<h2>CSRP</h2>
+					</div>
+					<div class="item item-body">
+						<div>							
+							<p>
+								The CARDI Small Ruminant Project is a collaborative initiative between CARDI, UWI, and various stakeholders within the small ruminant industry within the Caribbean. The project aims at helping farmers in the sheep and goat industry to increase productivity through the use of best practice husbandry and enterprise management techniques.
+								<a  href="#" onclick="window.open('http://csrp.cardi.org/', '_system', 'location=yes'); return false;">Source</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- CARDI About -->
+			<div class="item">
+				<div class="list card">
+					<div class="item">
+						<h2>CARDI</h2>
+					</div>
+					<div class="item item-body">
+						<div class="srlAboutImg"><img ng-src="{{srlImgPath}}cardi.png" alt="logo"></div>
+						<div>
+							<p>
+								The CARDI Small Ruminant Project is a collaborative initiative between various stakeholders within the Caribbean's small ruminant industry. The project will help farmers in the sheep and goat industry to increase productivity through improving husbandry and management techniques.
+								<a href="#" onclick="window.open('http://www.cardi.org/', '_system', 'location=yes'); return false;">Source</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- AgriNeTT About -->
+			<div class="item">
+				<div class="list card">
+					<div class="item">
+						<h2>AgriNeTT</h2>
+					</div>
+					<div class="item item-body">
+						<div class="srlAboutImg"><img ng-src="{{srlImgPath}}agrinett.png" alt="logo"></div>
+						<div>
+							<p>
+								AgriNeTT is a project of the St. Augustine Campus of the University of the West Indies that aims to provide ICT-based solutions within the Agricultural sector of the Caribbean.
+								<a href="#" onclick="window.open('http://sta.uwi.edu/rdifund/projects/agrinett/', '_system', 'location=yes'); return false;">Source</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- UWI About -->
+			<div class="item">
+				<div class="list card">
+					<div class="item">
+						<h2>UWI</h2>
+					</div>
+					<div class="item item-body">
+						<div class="srlAboutImg"><img ng-src="{{srlImgPath}}uwi.jpg" alt="logo"></div>
+						<div>
+							<p>
+								The University of the West Indies is internationally recognized as a centre of excellence in research, knowledge creation and innovation on matters related to the Caribbean and small island states.
+								<a href="#" onclick="window.open('http://sta.uwi.edu/', '_system', 'location=yes'); return false;">Source</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</ion-content>
+</ion-view>
